@@ -3,7 +3,7 @@
 Begin proof
 ---
 
-**The J-KEY-Region problem is NP-hard for the *Independent Cascade (IC) model* **
+**The J-KEY-Region problem is NP-hard for the *Independent Cascade (IC) model***
 
 
 To reach the NP-hardness of the J-KEY-Region problem, it is sufficient to prove that one special instance of J-KEY-Region is NP-hard. We define such a special instance as follows. Set all the weight <img src="https://render.githubusercontent.com/render/math?math=w_{v_i} = 1, p_{(u,v)}\in \{0,1\}"> and assume every region only contains one event (<img src="https://render.githubusercontent.com/render/math?math=f(t) = r"> is one to one mapping). Then we give the decision problem as follows. Given a traffic event network *G(V, E)*, an non-negative integer *l*, we want to find a set *S* of regions such that <img src="https://render.githubusercontent.com/render/math?math=|S| = l and \sigma(T) \geq B">,   <img src="https://render.githubusercontent.com/render/math?math=\forall t \in T, f(t)\in R">.
